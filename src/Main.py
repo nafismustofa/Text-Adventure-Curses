@@ -1,14 +1,13 @@
 import curses
-from DrawMap import DrawMap
+from Player import Player
 
 def main():
     stdscr = curses.initscr()
 
-    DrawMap().draw_map()
+    Player().player()
 
     stdscr.getch()
     curses.endwin()
 
 if __name__ == "__main__":
     main()
-    

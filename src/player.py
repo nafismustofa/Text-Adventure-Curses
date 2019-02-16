@@ -11,6 +11,7 @@ class Player:
 
     def player(self):
         self.__stdscr.keypad(True)
+        curses.curs_set(0)
         curses.noecho()
 
         DrawMap().draw_map()

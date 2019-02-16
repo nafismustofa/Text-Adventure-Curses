@@ -1,5 +1,5 @@
 import curses
-from Player import Player
+from player import Player
 
 def main():
     stdscr = curses.initscr()

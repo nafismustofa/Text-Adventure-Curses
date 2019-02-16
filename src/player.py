@@ -1,5 +1,5 @@
 import curses
-from DrawMap import DrawMap
+from draw_map import DrawMap
 
 class Player:
     __position_x = 1

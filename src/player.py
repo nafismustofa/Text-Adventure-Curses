@@ -51,5 +51,5 @@ class Player:
                 DrawMap().draw_map()
                 self.__stdscr.addstr(self.__position_y , self.__position_x , self.__player)
 
-            if c == ord("q") or curses.KEY_BACKSPACE:
+            if c == ord("q"):
                 break
